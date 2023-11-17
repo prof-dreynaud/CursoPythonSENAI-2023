@@ -1,0 +1,1 @@
+print ("Hello World em Python do SENAI!!")
