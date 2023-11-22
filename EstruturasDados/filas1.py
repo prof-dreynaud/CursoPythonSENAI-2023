@@ -22,3 +22,25 @@ class Fila:
             return None
         return self.itens.pop(0) #remoção da fila
 
+#como se fosse ponteiro
+fila = Fila()
+
+fila.enfileirar("A")
+fila.enfileirar("B")
+fila.enfileirar("C")
+fila.enfileirar("D")
+
+tamanho = fila.tamanho()
+print("Tamanho da fila: ", tamanho)
+
+valor = fila.desenfileirar()
+print("item removido: ", valor)
+
+tamanho = fila.tamanho()
+print("Tamanho da fila: ", tamanho)
+
+valor = fila.desenfileirar()
+print("item removido: ", valor)
+
+fila_vazia = fila.esta_vazia()
+print("A fila está vazia?", fila_vazia)
