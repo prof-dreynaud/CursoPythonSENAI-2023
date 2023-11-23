@@ -1,0 +1,1 @@
+Fazer igual ao exemplificado em sala de aula, imprimindo o tipo de cada variável
